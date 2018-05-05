@@ -1,0 +1,39 @@
+body {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.top {
+    background-color: #3B2800;
+    display: flex;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    max-width: 85px;
+    max-height: 65px;
+    color: grey;
+}
+
+.navigation {
+    margin-left: 320px;
+}
+
+.navigation ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.navigation a {
+	color: grey;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.navigation ul li:hover a {
+	color: white;
+}
