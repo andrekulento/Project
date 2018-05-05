@@ -15,7 +15,6 @@ body {
 .logo img {
     max-width: 85px;
     max-height: 65px;
-    color: grey;
 }
 
 .navigation {
@@ -36,4 +35,40 @@ body {
 
 .navigation ul li:hover a {
 	color: white;
+}
+
+.aprasymas {
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+    background-color: #FFFFF3;
+}
+
+.first_page img {
+     max-width: 300px;
+     max-height: 400px;
+     float: left;
+     position: relative;
+}
+
+.first_page {
+	background-color: #3B2800;
+	position: absolute;
+}
+
+.first_page div {
+    padding: 50px;
+    position: relative;
+}
+
+.first_page h3 {
+	color: white;
+	text-align: left;
+	position: relative;
+}
+
+.first_page p {
+	color: white;
+	text-align: left;
+	position: relative;
 }
