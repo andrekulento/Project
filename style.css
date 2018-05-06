@@ -27,7 +27,7 @@ body {
 }
 
 .navigation a {
-	color: grey;
+	color: lightgrey;
 	text-decoration: none;
 	padding: 15px;
 	font-size: 15px;
@@ -41,27 +41,29 @@ body {
 	padding-top: 30px;
 	padding-left: 150px;
 	padding-bottom: 80px;
-    background-color: #FFFFF3;
+    background-color: #EFEDE2;
 }
 .aprasymas h3 {
-	color: grey;
+	color: darkgrey;
 	position: relative;
-	left: -30px;
+	left: -55px;
 }
 
 .aprasymas h5 {
 	position: relative;
-	left: -700px;
+	left: -650px;
 	top: -750px;
 	-webkit-transform:rotate(-90.0deg) ;
+	color: grey;
 }
 
 .aprasymas span {
-    color: #302F2A;
+    color: grey;
 }
 
 .first_page span {
-    color: gainsboro;
+    color: white;
+    font-size: 22px;
 }
 
 .first_page img {
@@ -71,6 +73,7 @@ body {
      position: relative;
      left: 100px;
      top: 50px;
+     box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.1); 
 }
 
 .first_page {
@@ -89,23 +92,46 @@ body {
 .first_page h4 {
 	text-align: left;
 	position: relative;
-	color: grey;
+	color: lightgrey;
 	font-size: 20px;
 }
 
 .first_page p {
-	color: white;
+	color: lightgrey;
 	text-align: left;
 	position: relative;
 }
 
 .first_page button {
 	position: relative;
-	top: -330px;
-	left: -340px;
+	top: -350px;
+	left: -350px;
 	font-size: 20px;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: none;
+	color: lightgrey;
 }
 
-.first_page input {
-	padding: 4px;
+#music {
+	padding: 7px;
+	color:lightgrey;
+	background-color: #7A605C; 
+	border: solid white 1px;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	font-size: 15px;
+}
+
+#music i {
+	margin-right: 5px;
+}
+
+#music:hover {
+	color: black;
+	background-color: white;
 }
