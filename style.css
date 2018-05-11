@@ -135,3 +135,82 @@ body {
 	color: black;
 	background-color: white;
 }
+
+.map_desc {
+	float: left;
+	margin-left: 50px;
+}
+
+.map {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #B0A594;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+}
+
+.map h3 {
+    margin-left: 90px;
+}
+
+.map_desc span {
+	float: right;
+}
+
+.map_desc div {
+    margin-top: 40px;
+	margin-left: 40px;
+	padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    background-color: #EFEDE2;
+}
+
+.map_desc p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 0.5px solid lightgrey;
+}
+
+.map_nav ul li {
+	float: left;
+    display: inline-block;
+    background-color: #7A605C;
+}
+
+.map_nav {
+	background-color: #7A605C;
+}
+
+.map_nav a {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.map_nav ul li:hover a {
+	background-color: #92A5A6;
+}
+
+.map_nav i {
+	border-right: 0.5px solid lightgrey;
+	padding-right: 20px;
+	font-size: 25px;
+}
+
+#last {
+	border: none;
+}
+
+.location {
+	margin-right: 15%;
+	float: right;
+	margin-top: 15px; 
+	max-width: 630px;
+	max-height: 470px;
+}
